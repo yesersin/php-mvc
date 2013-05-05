@@ -1,6 +1,6 @@
 <?php 
 var_dump($_REQUEST);
-//test
+
 if (isset($_GET['url']))
 {
 	$params = array();
