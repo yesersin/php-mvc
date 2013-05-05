@@ -48,6 +48,8 @@ class Controller
 		return $helper;
 	}
 	
+	
+	
 	protected function redirect($loc)
 	{
 		global $config;
