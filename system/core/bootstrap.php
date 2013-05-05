@@ -39,12 +39,10 @@ if (method_exists($load, $action))
 	
 	//http://www.phpr.org/php-5-4-ile-gelen-yeni-ozellikler/
     $load->{$action}($query);
-    
+   
     //php 5.3 =<  uyumlu olsun istersek
     //$load->$action($query); 
    
-   
-    
     
 }
 else 
