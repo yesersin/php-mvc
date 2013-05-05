@@ -29,7 +29,7 @@ class Controller
 	}
 	
 	
-	//yeni ekledim
+	//yeni ekledim bu kısım dan altı yeni eklendi
 	protected function loadView($name)
 	{
 		$view = new View($name);
@@ -55,5 +55,6 @@ class Controller
 		global $config;
 	
 		header('Location: '. $config['base_url'] . $loc);
+	
 	}
 }

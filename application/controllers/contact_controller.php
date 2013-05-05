@@ -12,11 +12,17 @@ class Contact_Controller extends Controller
     {
         if (!isset($_POST['contactFormSubmit']))
 		{
-			header('Location: /contact/index');
+			//header('Location: /contact/index');
+			
+			$this->redirect('/contact/index');
+			
+			
 		}
 		
 		$errors = array();
 		$check = true;
+		
+		
 			
 		$firstName = isset($_POST['first_name']) ? trim($_POST['first_name']) : NULL;
 		$lastName = isset($_POST['last_name']) ? trim($_POST['last_name']) : NULL;
