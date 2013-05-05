@@ -1,8 +1,3 @@
-#<Files "dsalopekmvc">
-#   order allow,deny
-#   allow from all
-#</Files>
-
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
