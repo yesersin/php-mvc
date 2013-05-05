@@ -1,0 +1,1 @@
+Logger::log(new Exception("upload su hatayı verdi (".$Uploader->result_report()." )"));
