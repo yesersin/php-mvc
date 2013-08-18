@@ -1,8 +1,5 @@
 <?php 
-/**
- * Written by Serkan GÜNEŞ <serkan.gunes@yceo.com.tr>
- *
- */
+
 	class Logger {
 	
 		public static function log($e){
